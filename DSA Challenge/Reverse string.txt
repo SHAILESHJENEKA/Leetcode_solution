@@ -1,0 +1,11 @@
+string reverseWord(string str){
+  int left = 0;
+  int right = str.length()-1;
+  
+  while(left<right){
+      int temp = str[left];
+      str[left++] = str[right];
+      str[right--] = temp;
+  }
+  cout<< str;
+}
