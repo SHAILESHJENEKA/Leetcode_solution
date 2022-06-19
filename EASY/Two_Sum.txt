@@ -11,7 +11,7 @@ public:
                 auto p = m.find(diff);
                 v.push_back(p-> second);
                 v.push_back(i);
-                
+                break;
             }
             m.insert({nums[i], i });
         }
