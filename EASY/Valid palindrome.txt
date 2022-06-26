@@ -13,7 +13,7 @@ class Solution {
 
       reverse(temp.begin(), temp.end());
       std::cout << temp;
-      if (temp = x) {
+      if (temp == x) {
         return true;
       } else {
         return false;
