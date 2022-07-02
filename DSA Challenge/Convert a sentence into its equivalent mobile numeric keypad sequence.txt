@@ -22,4 +22,4 @@ string printSequence( string S )
         }
     }
     return output;
-};
+}
