@@ -17,11 +17,9 @@ int printdub(string str)
     }
 }
 
-int main() {
-     
+int main() {     
      string str ; 
      cin>> str;
      printdub(str);
-
     return 0;
 }
