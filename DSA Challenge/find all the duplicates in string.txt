@@ -16,7 +16,6 @@ int printdub(string str)
         }
     }
 }
-
 int main() {     
      string str ; 
      cin>> str;
